@@ -2,7 +2,9 @@
 <html>
 <head>
   <title> Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="RESET.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
   <section class ="nav-bar">
@@ -11,11 +13,11 @@
       <p> Newton Barley </p>
     </article>
     <article class="nav main">
-      <p> HOME </p>
-      <p> JOBS </p>
-      <p> RESUMES </p>
-      <p> TASKS </p>
-      <p> CALENDAR </p>
+      <p> <i class="fas fa-home"></i> HOME </p>
+      <p> <i class="fas fa-briefcase"></i>JOBS </p>
+      <p> <i class="fas fa-clipboard"></i> RESUMES </p>
+      <p> <i class="fas fa-newspaper"></i> TASKS </p>
+      <p> <i class="fas fa-calendar"></i> CALENDAR </p>
     </article>
     <article class="nav admin">
       <p class="nav-article-label"> Admin </p>
@@ -42,15 +44,15 @@
       <p class="search"> dots </p>
     </article>
     <article class="main customer-container">
-      <section class = "customer-right"> 
-        <p>Customer Service Representative</p>
-        <p> San Francisco, CA  Preview this post </p>
-      </section>
       <section class = "customer-left"> 
-      1
-      2
-      3
-      4
+        <p class="customer">Customer Service Representative</p>
+        <p> <i class="fas fa-map-marker-alt"> </i> San Francisco, CA  <span class= "preview"> Preview this post </span> </p>
+      </section>
+      <section class = "customer-right"> 
+        <i class="fas fa-circle customer-right-icon"> <span class="open"> Open </span> </i> 
+    <i class="fas fa-bookmark customer-right-icon"></i>
+    <i class="fas fa-pen customer-right-icon"></i>
+    <i class="fas fa-trash customer-right-icon"></i>
        </section>
     </article><article class="main circles">
       circles

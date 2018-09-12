@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
   display: grid;
   grid-template-columns: 1fr 5.6fr;
@@ -5,9 +9,10 @@ body{
 }
 
 .nav-bar{
-  background-color: #EBC0B7;
+  background-color: #3b8fa1;
   display: grid;
   grid-template-rows: 1fr 2fr 2fr 2fr;
+  color: white;
 }
 
 .main-bar{
@@ -51,4 +56,53 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.customer{
+  font-size: 2rem;
+  padding: 2px;
+}
+
+.preview{
+  color: #32c3ee;
+  margin-left: 20px;
+}
+
+.fa-map-marker-alt{
+  margin: 0;
+  padding: 0;
+}
+
+.customer-right{
+  padding: 24px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.customer-right-icon{
+  margin: 8px;
+}
+
+.fa-bookmark, .fa-pen, .fa-trash{
+  border: #32c3ee solid;
+  border-radius: 50%;
+  color: #32c3ee;
+}
+.fas{
+  padding: 8px;
+}
+.fa-circle{
+  color: #3b8fa1;
+  font-size: .8rem;
+  border: solid;
+  border-radius: 50px;
+}
+
+.open{
+  color: black;
+  font-size: 1.4rem;
+}
+
+.circles{
+  /*background-color: #4dd7ff;*/
 }
