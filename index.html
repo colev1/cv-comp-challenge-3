@@ -55,11 +55,15 @@
   </section>
   <section class="main-bar">
     <article class="main search-container">
-      <p class="search"> <i class="fas fa-bars"></i> </p>
-      <p class="search search-bar"> <i class="fas fa-search"> Search for a job, task, or resume </i>  </p>
-      <p class="search"> <i class="fas fa-user"></i> </p>
-      <p class="search"> <i class="fas fa-calendar"></i> </p>
-      <p class="search"> <i class="fas fa-th"></i> </p> </p>
+      <div class = "search-bar-left">
+        <p class="search-bar-icon"> <i class="fas fa-bars"></i> </p>
+        <p class="search-bar-input"> <i class="fas fa-search"> Search for a job, task, or resume </i>  </p>
+      </div>
+      <div class = "search-bar-right">
+        <p class="search-bar-icon"> <i class="fas fa-user"></i> </p>
+        <p class="search-bar-icon"> <i class="fas fa-calendar"></i> </p>
+        <p class="search-bar-icon"> <i class="fas fa-th"></i> </p> </p>
+      </div>
     </article>
     <article class="main customer-container">
       <section class = "customer-left"> 
@@ -67,13 +71,13 @@
         <p> <i class="fas fa-map-marker-alt"> </i> San Francisco, CA  <span class= "preview"> Preview this post </span> </p>
       </section>
       <section class = "customer-right"> 
-        <i class="fas fa-circle customer-right-icon"> <span class="open"> Open </span> </i> 
+        <i class="fas fa-circle customer-open-icon"> <span class="open"> Open </span> </i> 
     <i class="fas fa-bookmark customer-right-icon"></i>
     <i class="fas fa-pen customer-right-icon"></i>
     <i class="fas fa-trash customer-right-icon"></i>
        </section>
     </article>
-    <article class="summary">
+    <article class="summary-container">
       <p> SUMMARY </p>
       <p> APPLICANTS </p>
       <p> JOB BOARD</p>
@@ -82,38 +86,105 @@
       <p> BROADCAST </p>
       <p> NOTIFICATIONS </p>
     </article>
-    <article class="main circles-container">
-      <svg class = "circle-svg" height="150" width="150">
-        <circle class="bottom-circle" cx="75" cy="75" r = "60"> </circle>
-        <circle class="top-circle-1 top-circle" cx="75" cy="75" r="60"> </circle>
-        <text class="circle-text" x="36" y="85" fill="red" transform="rotate(270,75,75)">
-          3,156
-        </text>
-      </svg>
-      <svg class = "circle-svg" height="150" width="150">
-        <circle class="bottom-circle" cx="75" cy="75" r ="60"> </circle>
-        <circle class="top-circle-2 top-circle" cx="75" cy="75" r="60"> </circle>
-        <text class="circle-text" x="36" y="85" fill="red" transform="rotate(270,75,75)">
-          3,156
-        </text>
-      </svg>
-      <svg class = "circle-svg" height="150" width="150">
-        <circle class="bottom-circle" cx="75" cy="75" r = "60"> </circle>
-        <circle class="top-circle-3 top-circle" cx="75" cy="75" r="60"> </circle>
-        <text class="circle-text" x="36" y="85" fill="red" transform="rotate(270,75,75)">
-          3,156
-        </text>
-      </svg>
-      <section class = "circle-section bar-graph">
-        graph
-      </section>
+    <!-- row that displays circles and graph -->
+     <article class="entire-graphics-row"> 
+      <div class="main graphics-top-container">
+        <section class="circle-section circle-display-container">
+          <svg class = "circle-svg" height="150" width="150">
+          <circle class="bottom-circle" cx="75" cy="75" r = "60"> </circle>
+          <circle class="top-circle-1 top-circle" cx="75" cy="75" r="60"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,75,75)">
+            applicants
+          </text>
+          </svg>
+          <svg class = "circle-svg" height="150" width="150">
+          <circle class="bottom-circle" cx="75" cy="75" r ="60"> </circle>
+          <circle class="top-circle-2 top-circle" cx="75" cy="75" r="60"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,75,75)">
+            interviews
+          </text>
+          </svg>
+          <svg class = "circle-svg" height="150" width="150">
+          <circle class="bottom-circle" cx="75" cy="75" r = "60"> </circle>
+          <circle class="top-circle-3 top-circle" cx="75" cy="75" r="60"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,75,75)">
+            forwards
+          </text>
+          </svg>
+       </section>
+        <section class = "circle-section bar-graph">
+          <img src="pics/bar-graph-image.png" class="bar-graph-image">
+        </section>
+      </div>
+      <div class="graphics-bottom-container">
+        <article class="totals-button">
+          TOTALS - Out of 5,231 views
+        </article>
+        <article class="applicants-day-button">
+          APPLICANTS/DAY
+        </article>
+      </div>
     </article>
-    <article class="main display">
+    <article class="main main-display-container">
       <section class="display-left-container">
-        JOB
+        <p class="left-job-content job-description"> JOB DESCRIPTION 
+        </p>
+         <p class="left-job-content job-description"> EDIT
+        </p>
+        <p class="left-job-content position-title"> POSITION TITLE
+        </p>
+        <p class="left-job-content"> Customer Service Representative
+        </p>
+        <p class="left-job-content location"> LOCATION
+        </p>
+         <p class="left-job-content"> San Francisco, CA
+        </p>
+        <p class="left-job-content employment-type"> EMPLOYMENT TYPE
+        </p>
+        <p class="left-job-content"> Full-time
+        </p>
+        <p class="left-job-content"> EXPERIENCE 
+        </p>
+        <p class="left-job-content"> Mid-level
+        </p>
+        <p class="left-job-content"> STATUS
+        </p>
+        <p class="left-job-content"> Open
+        </p>
+        <p class="left-job-content"> DESCRIPTION
+        </p>
+        <p class="left-job-content"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+        </p>
+        <p class="left-job-content"> HIRING LEAD
+        </p>
+        <p class="left-job-content"> Tom Tizzy
+        </p>
+        <p class="left-job-content"> APPROVED SALARY
+        </p>
+        <p class="left-job-content"> $58,000
+        </p>
       </section>
       <section class="display-right-container">
-        facebook
+        <div class="social-media-links">
+          <p class="social-button facebook"> Post to Facebook </p>
+          <p class="social-button twitter"> Tweet this Job </p>
+          <p class="social-button linkedin"> Post to LinkedIn </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links"> Link to this Job </p>
+          <p class="job-links"> Lorem ipsum dolom sit amet, consectetur adipis clin elit. Integer mollis neque eget vetibpend. </p>
+          <p class="job-links white-box"> http://loremipsum.dol/sit amet </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links"> Use the button widget </p>
+          <p class="job-links"> This widget embeds the button for sharing the job for submitting a resume on your website. </p>
+          <p class="job-links white-box"> script type= text javascript </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links "> Upload resumes by Email </p>
+          <p class="job-links"> You can automatically upoad multiple resumes to this job by emailing the address below. </p>
+          <p class="job-links white-box"> tomtizzy@gmail.com </p>
+        </div>
       </section>
     </article>
   </section>
