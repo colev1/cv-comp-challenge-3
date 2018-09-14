@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Static Comp 3</title>
+  <link rel="stylesheet" type="text/css" href="RESET.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+  <section class ="entire-nav-bar">
+    <article class="nav profile">
+      <img src="pics/dwight.jpg" class="profile-pic">
+      <p> Dwight Schrute </p>
+    </article>
+    <article class="nav left-side-nav-container">
+       <section class="left-side-nav-label main-label">
+        Main
+      </section>
+      <section class = "left-side-nav-content">
+        <aside class="left-nav-icon-container"> <i class="fas fa-home nav-icon"></i> 
+          <div class = "icon-title"> HOME </div> 
+        </aside>
+        <aside class="left-nav-icon-container"> <i class="fas fa-briefcase nav-icon"></i> 
+          <div class = "icon-title"> JOBS </div> 
+        </aside>
+        <aside class="left-nav-icon-container"> <i class="fas fa-clipboard nav-icon"></i> 
+          <div class = "icon-title"> RESUMES </div> 
+        </aside>
+        <aside class="left-nav-icon-container"> <i class="fas fa-newspaper nav-icon"></i> 
+          <div class = "icon-title"> TASKS </div> 
+        </aside>
+        <aside class="left-nav-icon-container"> <i class="fas fa-calendar nav-icon"></i>  
+          <div class = "icon-title"> CALENDAR  </div> 
+        </aside>
+      </section>
+    </article>
+    <article class="nav left-side-nav-container">
+      <section class="left-side-nav-label">
+        Admin 
+      </section>
+      <section class = "left-side-nav-content">
+        <aside class="left-nav-icon-container"> 
+          <i class="fas fa-users nav-icon"></i> 
+          <div class = "icon-title">USERS </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-map-marker nav-icon"></i> 
+          <div class = "icon-title"> LOCATIONS </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-building nav-icon"></i> 
+          <div class = "icon-title"> WORKFLOWS </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-flipboard nav-icon"> </i> 
+          <div class = "icon-title"> JOB BOARDS 
+        </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-vector-square nav-icon"> </i> 
+          <div class = "icon-title"> SOCIAL </div>
+        </aside>
+      </section>
+    </article>
+
+
+    <article class="nav left-side-nav-container">
+      <section class="left-side-nav-label">
+      Categories
+      </section>
+    <section class="left-side-nav-content">
+        <aside class="left-nav-icon-container"> <i class="fas fa-square nav-icon yellow-square"></i>  
+          <div class = "icon-title ">Administrative </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-square nav-icon blue-square"></i> 
+          <div class = "icon-title"> Design</div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-square nav-icon red-square"></i> 
+          <div class = "icon-title"> Executive </div>
+        </aside>
+        <aside class="left-nav-icon-container">
+        <i class="fas fa-square nav-icon green-square"></i>
+          <div class = "icon-title"> Human Resources
+        </div>
+        </aside>
+      </section>
+    </article>
+  </section>
+  <section class="main-bar">
+    <article class="main search-container">
+      <div class = "search-bar-left">
+        <p class="search-bar-icon"> <i class="fas fa-bars"></i> </p>
+        <p class="search-bar-input"> <i class="fas fa-search"> Search for a job, task, or resume </i>  </p>
+      </div>
+      <div class = "search-bar-right">
+        <p class="search-bar-icon"> <i class="fas fa-user"></i> </p>
+        <p class="search-bar-icon"> <i class="fas fa-calendar"></i> </p>
+        <p class="search-bar-icon"> <i class="fas fa-th"></i> </p> </p>
+      </div>
+    </article>
+    <article class="main customer-container">
+      <section class = "customer-left"> 
+        <p class="customer">Customer Service Representative</p>
+        <p> <i class="fas fa-map-marker-alt"> </i> San Francisco, CA  <span class= "preview"> Preview this post </span> </p>
+      </section>
+      <section class = "customer-right"> 
+        <button> <i class="fas fa-circle customer-open-icon">  </i> <span class="open"> OPEN </span>  </button>
+    <i class="fas fa-bookmark customer-right-icon"></i>
+    <i class="fas fa-pen customer-right-icon"></i>
+    <i class="fas fa-trash customer-right-icon"></i>
+       </section>
+    </article>
+    <article class="summary-container">
+      <p> SUMMARY </p>
+      <p> APPLICANTS </p>
+      <p> JOB BOARD</p>
+      <p> INTERVIEWS</p>
+      <p> ACTIVITY</p>
+      <p> BROADCAST </p>
+      <p> NOTIFICATIONS </p>
+    </article>
+    <!-- row that displays circles and graph -->
+     <article class="entire-graphics-row"> 
+      <div class="main graphics-top-container">
+        <section class="circle-section circle-display-container">
+          <svg class = "circle-svg" height="170" width="170">
+          <circle class="bottom-circle" cx="85" cy="85" r = "70"> </circle>
+          <circle class="top-circle-1 top-circle" cx="85" cy="85" r="70"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,85,85)">
+            applicants
+          </text>
+          </svg>
+          <svg class = "circle-svg" height="170" width="170">
+          <circle class="bottom-circle" cx="85" cy="85" r ="70"> </circle>
+          <circle class="top-circle-2 top-circle" cx="85" cy="85" r="70"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,85,85)">
+            interviews
+          </text>
+          </svg>
+          <svg class = "circle-svg" height="170" width="170">
+          <circle class="bottom-circle" cx="85" cy="85" r = "70"> </circle>
+          <circle class="top-circle-3 top-circle" cx="85" cy="85" r="70"> </circle>
+          <text class="circle-text" x="36" y="85" fill="black" transform="rotate(270,85,85)">
+            forwards
+          </text>
+          </svg>
+       </section>
+        <section class = "circle-section bar-graph">
+          <img src="pics/bar-graph-image.png" class="bar-graph-image">
+        </section>
+      </div>
+      <div class="graphics-bottom-container">
+        <article class="totals-button">
+          TOTALS - Out of 5,231 views
+        </article>
+        <article class="applicants-day-button">
+          APPLICANTS/DAY
+        </article>
+      </div>
+    </article>
+    <article class="main main-display-container">
+      <section class="display-left-container">
+        <p class="left-job-content job-description"> JOB DESCRIPTION 
+        </p>
+         <p class="left-job-content job-description"> EDIT
+        </p>
+        <p class="left-job-content position-title"> POSITION TITLE
+        </p>
+        <p class="left-job-content"> Customer Service Representative
+        </p>
+        <p class="left-job-content location"> LOCATION
+        </p>
+         <p class="left-job-content"> San Francisco, CA
+        </p>
+        <p class="left-job-content employment-type"> EMPLOYMENT TYPE
+        </p>
+        <p class="left-job-content"> Full-time
+        </p>
+        <p class="left-job-content"> EXPERIENCE 
+        </p>
+        <p class="left-job-content"> Mid-level
+        </p>
+        <p class="left-job-content"> STATUS
+        </p>
+        <p class="left-job-content"> Open
+        </p>
+        <p class="left-job-content"> DESCRIPTION
+        </p>
+        <p class="left-job-content job-box-content"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+        </p>
+        <p class="left-job-content"> HIRING LEAD
+        </p>
+        <p class="left-job-content"> Tom Tizzy
+        </p>
+        <p class="left-job-content"> APPROVED SALARY
+        </p>
+        <p class="left-job-content"> $58,000
+        </p>
+      </section>
+      <section class="display-right-container">
+        <div class="social-media-links">
+          <p class="social-button facebook">  <i class="fab fa-facebook-f"></i> Post to Facebook </p>
+          <p class="social-button twitter"> <i class="fab fa-twitter"></i> Tweet this Job </p>
+          <p class="social-button linkedin"> <i class="fab fa-linkedin"> </i>Post to LinkedIn </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links job-box-title">  <i class="fas fa-globe-americas"></i> Link to this Job </p>
+          <p class="job-links job-box-content"> Lorem ipsum dolom sit amet, consectetur adipis clin elit. Integer mollis neque eget vetibpend. </p>
+          <p class="job-links white-box"> http://loremipsum.dol/sit amet </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links job-box-title"> <i class="fas fa-save"></i> Use the button widget </p>
+          <p class="job-links job-box-content"> This widget embeds the button for sharing the job for submitting a resume on your website. </p>
+          <p class="job-links white-box"> script type= text javascript </p>
+        </div>
+        <div class = "social-media-links">
+          <p class="job-links job-box-title"> <i class="fas fa-paper-plane"></i> Upload resumes by Email </p>
+          <p class="job-links job-box-content"> You can automatically upoad multiple resumes to this job by emailing the address below. </p>
+          <p class="job-links white-box"> tomtizzy@gmail.com </p>
+        </div>
+      </section>
+    </article>
+  </section>
+</body>
+</html>
