@@ -109,6 +109,7 @@ body{
 
 .main-container{
   border: solid black .5px;
+  width: 80vw;
 }
 
 .search-container{
@@ -177,17 +178,19 @@ body{
   font-size: 18px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
 .customer-right-icon{
   margin: 8px;
   padding: .8rem;
   width: 40px;
   height: 40px;
+  color: #a0a6b4;
 }
 
 .fa-bookmark, .fa-pen, .fa-trash{
-  border: grey solid .5px;
+  border: #a0a6b4 solid .3px;
   border-radius: 50%;
   /*color: #32c3ee;*/
   text-align: center;
@@ -196,16 +199,19 @@ body{
   font-size: .8rem;
 }
 
-.open{
-  color: black;
-  font-size: 1.2rem;
-}
+.open-button{
+  font-size: .8rem;
+  border-radius: 30px;
+  height: 40px;
+  width: 90px;
+  color: #6f7e95;
+  margin-right: 9px;
+  border: .5px solid #a0a6b4;
+} 
 
 .customer-open-icon{
-  /*width: 100%;
-  display: flex;
-  padding-top: 16px;
-  padding-left: 10px;*/
+ font-size: .6rem;
+ color: #8ecd4a;
 }
 
 .summary-container {
@@ -268,17 +274,17 @@ body{
 
 .top-circle-1{
   stroke-dashoffset: calc(3.14159265358979*120*.25);
-  stroke: #3b8fa1;
+  stroke: #44babe;
 }
 
 .top-circle-2{
   stroke-dashoffset: calc(3.14159265358979*120*.6);
-  stroke: #3b8fb4;
+  stroke: #1ca1ee;
 }
 
 .top-circle-3{
   stroke-dashoffset: calc(3.14159265358979*120*.8);
-  stroke: #3b8fc1;
+  stroke: #aa5dab;
 }
 
 
@@ -286,8 +292,15 @@ body{
    transform: rotate(90deg);
 }
 
-.circle-text{
-  font-size: 1rem;
+.circle-text-number{
+  font-size: 2rem;
+  color: #6f7e95;
+  font-weight: bolder;
+}
+
+.circle-text-word{
+  font-size: .8rem;
+  color: #6f7e95;
 }
 
 .main-display-container{
@@ -304,10 +317,11 @@ body{
   border-radius: 20px;
   margin: 30px;
   display: grid;
-  grid-template-rows: repeat(6, 1fr) 3fr 1fr 1fr;
-  grid-template-columns: 1fr 3fr; 
+  grid-template-rows: repeat(6, 1fr) 2.4fr 1fr 1fr;
+  grid-template-columns: 160px 1fr; 
   background-color: white;
   overflow: hidden;
+  font-weight: bold;
 
 }
 
@@ -315,18 +329,25 @@ body{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  /*border-bottom: solid 1px black;*/
   padding: 10px;
   margin: 0;
-  color: grey;
+  color: #6f7e95;
   font-size: .8rem;
   padding: 20px;
 }
 
 .job-description{
-  background-color: grey;
+  background-color: #6f7e95;
   /*border-radius: 20px;*/
   color: white;
+  font-weight: bolder;
+}
+
+.edit-button {
+  padding: 10px;
+  background-color: #7d8ba6;
+  color: white;
+  font-weight: bold;
 }
 
 .display-right-container{
