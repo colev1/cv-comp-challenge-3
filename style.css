@@ -791,16 +791,10 @@ hr {
     border-top: solid #d9e3ec 2px;
   }
 
-  .hover:hover {
+  .search-bar-icon:hover {
     background-color: unset;
     color: unset;
-    cursor: unset;
   }
-
-  .s-hover:hover {
-    cursor: unset;
-  }
-
 
   .graphics-button {
     font-size: .8rem;
