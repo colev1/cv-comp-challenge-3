@@ -9,4 +9,4 @@ Comp instructions:
 
 ## My version:
 
-![my-static-comp-3](pics/my-static-comp)
+![my-static-comp-3](pics/my-static-comp.png)
