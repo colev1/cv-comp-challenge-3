@@ -86,6 +86,7 @@ body {
 }
 
 .icon-container:hover {
+  background-color: black;
   border-left: #17a3fa solid 4px;
   color: white;
   cursor: pointer;
@@ -102,12 +103,12 @@ body {
 .main {
   display: grid;
   grid-template-rows: .4fr 1fr .3fr 2fr 5fr;
-  /*width: 100%;*/
 }
 
 
 .search-container{
   border-bottom: solid #d9e3ec 2px;
+  border-top: solid #d9e3ec 2px;
   color: grey;
   display: flex;
   flex-direction: row;
@@ -510,6 +511,10 @@ hr {
   margin-right: 40px;
 }
 
+.long-description {
+  margin-top: 20px;
+}
+
 .media-links-title {
   font-size: 1rem;
   font-weight: bold;
@@ -628,6 +633,11 @@ hr {
     margin: 0;
   }
 
+  .table-content {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
   .customer-container {
     flex-direction: column;
     justify-content: center;
@@ -730,6 +740,10 @@ hr {
     border-bottom: #a0a6b4 solid .1px
   }
 
+  .open-button {
+    display: none;
+  }
+
   .bar-graph-image {
     width: 80%;
   }
@@ -744,7 +758,7 @@ hr {
   }
 
   .media-links {
-    width: 60%;
+    width: 86%;
   }
 
   .graphics-section {
@@ -766,6 +780,10 @@ hr {
   }
 
   .search-container {
-     border-top: solid #d9e3ec 2px;
+    border-top: solid #d9e3ec 2px;
+  }
+
+  .graphics-button {
+    font-size: .8rem;
   }
 }
