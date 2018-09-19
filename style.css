@@ -699,6 +699,14 @@ hr {
     margin: 0;
   }
 
+  .customer {
+    font-size: 1.24rem;
+  }
+
+  .san-fran {
+    width: 98%
+  }
+
   .social-media-links {
     flex-direction: row;
     height: unset;
@@ -782,6 +790,17 @@ hr {
   .search-container {
     border-top: solid #d9e3ec 2px;
   }
+
+  .hover:hover {
+    background-color: unset;
+    color: unset;
+    cursor: unset;
+  }
+
+  .s-hover:hover {
+    cursor: unset;
+  }
+
 
   .graphics-button {
     font-size: .8rem;
