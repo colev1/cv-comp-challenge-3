@@ -325,23 +325,23 @@ body {
 
 .top-circle {
   fill: none;
-  stroke-dasharray: calc(3.14159265358979*120);
+  stroke-dasharray: calc(3.14159265358979*140);
   stroke-linecap: round;
   stroke-width: 10px;
 }
 
 .top-circle-1 {
-  stroke-dashoffset: calc(3.14159265358979*120*.25);
+  stroke-dashoffset: calc(3.14159265358979*140*.2);
   stroke: #44babe;
 }
 
 .top-circle-2 {
-  stroke-dashoffset: calc(3.14159265358979*120*.6);
+  stroke-dashoffset: calc(3.14159265358979*140*.6);
   stroke: #1ca1ee;
 }
 
 .top-circle-3 {
-  stroke-dashoffset: calc(3.14159265358979*120*.8);
+  stroke-dashoffset: calc(3.14159265358979*140*.8);
   stroke: #aa5dab;
 }
 
